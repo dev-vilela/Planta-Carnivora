@@ -108,6 +108,16 @@ header{
      text-indent: 9px;
  }
 
+ main h3{
+    color: var(--cor2);
+    font-family: var(--font-h2);
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right,rgb(12, 87, 58), transparent);
+    text-indent: 9px;
+
+ }
+
  main p{
      margin:  15px 0px;
      text-align: justify;
