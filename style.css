@@ -37,7 +37,7 @@ header{
     background-image: linear-gradient(to bottom, rgb(20, 197, 88) , rgba(13, 110, 122, 0.856) );
     text-align: center;
     min-height: 150px;
-    padding-top: 70px;
+    padding-top: 40px;
 }
  header > h1{
      color: white;
@@ -63,6 +63,7 @@ header{
      background-color: var(--cor5);
      padding: 10px;
      box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192) ;
+     margin-top: 20px;
  }
 
  nav > a{
@@ -126,3 +127,67 @@ header{
      display: block;
      margin: auto;
  }
+  
+ .imagem{
+    background-color: rgb(51, 95,62 );
+    color: rgb(183, 188, 199);
+    box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.470);
+    background-attachment: fixed;
+}
+
+ .imagem > p{
+    min-width: 290px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.592);
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px black;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+ aside#img01{
+     background-image: url('imagens/fundo.jpg');
+     background-position: right center;
+     background-size: cover;
+     max-width: 100%;
+     min-width: none;
+ }
+
+ aside{
+    padding: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.470);
+ }
+ aside > h3{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    padding: 6px;
+    margin: -140px -140px 0px -140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 1.8em;
+ }
+
+ footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+footer > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+ 
