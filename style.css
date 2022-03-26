@@ -32,6 +32,9 @@ body{
     background-image: linear-gradient(to bottom,rgba(7, 136, 97, 0.384), transparent );
     font-family: var(--fonte-padrao);
 }
+a.externo::after{
+    content: '\00A0\1F517';
+}
 
 header{
     background-image: linear-gradient(to bottom, rgb(20, 197, 88) , rgba(13, 110, 122, 0.856) );
@@ -96,7 +99,7 @@ header{
      color: var(--cor5);
      font-family: var(--font-amotic);
      font-weight: bold;
-     font-size: 2.8em;
+     font-size: 2.5em;
  }
 
  main h2{
