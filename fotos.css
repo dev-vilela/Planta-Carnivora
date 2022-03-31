@@ -23,6 +23,7 @@
     --font-h2:'Neucha', cursive;
 }
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -31,6 +32,7 @@
 body{
     background-image: linear-gradient(to bottom,rgba(7, 136, 97, 0.384), transparent );
     font-family: var(--fonte-padrao);
+    font-family: Arial, Helvetica, sans-serif;
 }
 a.externo::after{
     content: '\00A0\1F517';
@@ -42,6 +44,26 @@ header{
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
+}
+#cabecalho{
+    border-bottom: 2px #0808088e solid;
+    background-image: linear-gradient(to bottom, rgb(17, 83, 67) , rgba(17, 131, 102, 0.856) );
+    height: 150px;
+}
+
+#cabecalho h1{
+    font-family: var(--font-amotic);
+    font-size: 30pt;
+    color: #202424;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#cabecalho h2{
+    font-family: var(--fonte-destaque);
+    color: rgba(49, 189, 72, 0.856);
+    font-size: 15pt;
 }
  header > h1{
      color: rgb(119, 207, 37);
@@ -209,3 +231,7 @@ footer a:hover{
     color: var(--cor1);
 }
  
+
+
+
+
